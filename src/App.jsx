@@ -1,9 +1,10 @@
+import React from 'react';
 import GoogleSearchBar from './components/GoogleSearchBar';
 
-const App = () => {
+function App() {
   return (
-    <GoogleSearchBar/>
-  )
+    <GoogleSearchBar />
+  );
 }
 
-export default App
+export default App;

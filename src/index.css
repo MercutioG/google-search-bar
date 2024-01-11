@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.searchbar {
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  border-radius: 2rem;
+  border: lightgray solid 2px;
+  background-color: #00000000;
+  transition: border-color 0.2s ease;
+
+  &:focus, &:active {
+    background-color: rgba(134, 134, 134, 0.233);
+    border: rgb(216, 216, 216) solid 2px;
+    outline: none;
+  }
+}
